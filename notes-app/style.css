@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: "Poppins", sans-serif;
+
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add {
+    background-color: #F4B609;
+    color: #FFF;
+
+    border-radius: 50%;
+    border: none;
+    
+    cursor: pointer;
+
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+    width: 3rem;
+    height: 3rem;
+}
+
+i {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.note {
+    margin: 20px;
+
+    height: 400px;
+    width: 400px;
+}
+
+.note .tools {
+    background-color: #F4B609;
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+
+    border-radius: 1rem 1rem 0 0;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+.note textarea {
+    outline: none;
+
+    font-family: inherit;
+    font-size: 1.2rem;
+    
+    border: none;
+    resize: none;
+
+    height: calc(100% - 40px);
+    width: 100%;
+
+    border-radius: 0 0 1rem 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 5px;
+}
